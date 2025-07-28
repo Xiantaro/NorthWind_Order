@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="myDataSet" targetNamespace="http://tempuri.org/myDataSet.xsd" xmlns:mstns="http://tempuri.org/myDataSet.xsd" xmlns="http://tempuri.org/myDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="myDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="myDataSet" msprop:Generator_DataSetName="myDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="產品顯示" msprop:Generator_RowEvHandlerName="產品顯示RowChangeEventHandler" msprop:Generator_RowDeletedName="產品顯示RowDeleted" msprop:Generator_RowDeletingName="產品顯示RowDeleting" msprop:Generator_RowEvArgName="產品顯示RowChangeEvent" msprop:Generator_TablePropName="產品顯示" msprop:Generator_RowChangedName="產品顯示RowChanged" msprop:Generator_RowChangingName="產品顯示RowChanging" msprop:Generator_TableClassName="產品顯示DataTable" msprop:Generator_RowClassName="產品顯示Row" msprop:Generator_TableVarName="table產品顯示" msprop:Generator_UserTableName="產品顯示">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="產品編號" msprop:Generator_ColumnPropNameInRow="產品編號" msprop:Generator_ColumnPropNameInTable="產品編號Column" msprop:Generator_ColumnVarNameInTable="column產品編號" msprop:Generator_UserColumnName="產品編號" type="xs:string" minOccurs="0" />
+              <xs:element name="產品名稱" msprop:Generator_ColumnPropNameInRow="產品名稱" msprop:Generator_ColumnPropNameInTable="產品名稱Column" msprop:Generator_ColumnVarNameInTable="column產品名稱" msprop:Generator_UserColumnName="產品名稱" type="xs:string" minOccurs="0" />
+              <xs:element name="產品單價" msprop:Generator_ColumnPropNameInRow="產品單價" msprop:Generator_ColumnPropNameInTable="產品單價Column" msprop:Generator_ColumnVarNameInTable="column產品單價" msprop:Generator_UserColumnName="產品單價" type="xs:string" minOccurs="0" />
+              <xs:element name="產品類別" msprop:Generator_ColumnPropNameInRow="產品類別" msprop:Generator_ColumnPropNameInTable="產品類別Column" msprop:Generator_ColumnVarNameInTable="column產品類別" msprop:Generator_UserColumnName="產品類別" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
